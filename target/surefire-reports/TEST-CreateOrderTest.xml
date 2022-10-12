@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateOrderTest" time="3.921" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateOrderTest" time="3.07" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288\surefirebooter7584350787311306870.jar C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288 2022-10-12T13-29-28_564-jvmRun1 surefire17884066979388325251tmp surefire_015034869654641865434tmp"/>
+    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247 2022-10-12T13-42-20_583-jvmRun1 surefire6610403051653746939tmp surefire_010846972224807782843tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288\surefirebooter7584350787311306870.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+9-LTS"/>
@@ -62,12 +62,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="OrderParametersTest[0]" classname="CreateOrderTest" time="1.877">
+  <testcase name="OrderParametersTest[0]" classname="CreateOrderTest" time="0.775">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 ]]></failure>
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
@@ -96,14 +96,14 @@ HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
 Content-Length: 16
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:55 GMT
-ETag: W/"10-4EcNusjKMOyCPIQ9kEN3m/r2H2o"
-Set-Cookie: _yasc=lR6GSkh7oQOB3126w0DUoWMLsSeFHRx0VrEisMu9rq7P1g==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:55 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:40 GMT
+ETag: W/"10-CQpwr1dl/AsYACa6dUAae6us5Ok"
+Set-Cookie: _yasc=3ZFCGVxUi6aRenJlqY1qj9brEL/Kfrx/fLJzzZnAtm29wQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:40 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570595394375-927626320844675561
+X-Request-Id: 1665571360611265-2151391053421898600
 
 {
-    "track": 505245
+    "track": 615934
 }
 Request method:	PUT
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/cancel
@@ -118,17 +118,17 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "track": 505245
+    "track": 615934
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 82
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:55 GMT
+Date: Wed, 12 Oct 2022 10:42:40 GMT
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
-Set-Cookie: _yasc=qHR/BgL7tMyGqbabbDAhib8erybNoxSrfx2/lP+4ttF8EA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:55 GMT; secure
+Set-Cookie: _yasc=EGZw0PA9y8/OdqpcHsBwbRaT2vOtvSeSJIRDeQ1UtO7NVQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:40 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570595785823-3004775808636878128
+X-Request-Id: 1665571360950195-6019879456106628672
 
 {
     "code": 400,
@@ -136,12 +136,12 @@ X-Request-Id: 1665570595785823-3004775808636878128
 }
 ]]></system-out>
   </testcase>
-  <testcase name="OrderParametersTest[1]" classname="CreateOrderTest" time="0.702">
+  <testcase name="OrderParametersTest[1]" classname="CreateOrderTest" time="0.79">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 ]]></failure>
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
@@ -172,14 +172,14 @@ HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
 Content-Length: 16
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:56 GMT
-ETag: W/"10-dcDgLAtDtvH4BfJr3iz2ZUKqLzU"
-Set-Cookie: _yasc=rpcUnerK4/skRuS6Ev/wv+vhnQ8ScKQoCgJQY313IeYirQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:56 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:41 GMT
+ETag: W/"10-yVap9B1rRLRbpCZcvZZ2vwCfZQw"
+Set-Cookie: _yasc=SPdqjaOszGBxtiMFogzghKLy2TFh+f/gcXS85K9+oXkmgw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:41 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570596331555-17874878859119895415
+X-Request-Id: 1665571361450942-18016646256097070421
 
 {
-    "track": 640323
+    "track": 240042
 }
 Request method:	PUT
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/cancel
@@ -194,17 +194,17 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "track": 640323
+    "track": 240042
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 82
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:56 GMT
+Date: Wed, 12 Oct 2022 10:42:41 GMT
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
-Set-Cookie: _yasc=SY/vH8QSLkstfNYbVpFxEndnm0CPCXxQ8eYJkN2pp7e4HA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:56 GMT; secure
+Set-Cookie: _yasc=TNtFJ8Zn5fqB+wCvf/UO1ovuWNlWyrAWa4FMrdgwNMy4Aw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:41 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570596712261-13366656962127124708
+X-Request-Id: 1665571361734537-7531743311680490513
 
 {
     "code": 400,
@@ -212,12 +212,12 @@ X-Request-Id: 1665570596712261-13366656962127124708
 }
 ]]></system-out>
   </testcase>
-  <testcase name="OrderParametersTest[2]" classname="CreateOrderTest" time="0.712">
+  <testcase name="OrderParametersTest[2]" classname="CreateOrderTest" time="0.644">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 ]]></failure>
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
@@ -246,16 +246,16 @@ Body:
 }
 HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
-Content-Length: 15
+Content-Length: 16
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:57 GMT
-ETag: W/"f-0xtLgdj9hXZILjA1JZNdEOhiJyI"
-Set-Cookie: _yasc=bsGu4a9gsPyzr2cKl8ev5prsxwnzoefjIEYFbSMIVjO4Pg==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:57 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:42 GMT
+ETag: W/"10-R9Zjy7ndmy1QEO9bL99+lL+hsZ8"
+Set-Cookie: _yasc=hTiBOtQp4p1/BSTfnIIDuH1N3vPahV/DNbTr4QQqa7EGfA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:42 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570597024206-15428471653303668294
+X-Request-Id: 1665571362180713-5186199130974174130
 
 {
-    "track": 78326
+    "track": 627954
 }
 Request method:	PUT
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/cancel
@@ -270,17 +270,17 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "track": 78326
+    "track": 627954
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 82
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:57 GMT
+Date: Wed, 12 Oct 2022 10:42:42 GMT
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
-Set-Cookie: _yasc=mSpI4IBaXEPHBdapjOt/z2LHg1oZu2qYyrLqAUFBOYPT6w==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:57 GMT; secure
+Set-Cookie: _yasc=6qxULGVQBgzvQLYSMunqxGi4+COAmr5wS69NEz5o53na2Q==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:42 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570597324475-15842909320640397098
+X-Request-Id: 1665571362557161-13848920621031227541
 
 {
     "code": 400,
@@ -288,12 +288,12 @@ X-Request-Id: 1665570597324475-15842909320640397098
 }
 ]]></system-out>
   </testcase>
-  <testcase name="OrderParametersTest[3]" classname="CreateOrderTest" time="0.62">
+  <testcase name="OrderParametersTest[3]" classname="CreateOrderTest" time="0.85">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 ]]></failure>
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders
@@ -325,14 +325,14 @@ HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
 Content-Length: 16
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:57 GMT
-ETag: W/"10-UQaHJUGqZQjS6Gs08MgjXWOdcQI"
-Set-Cookie: _yasc=7imctd5+zqXTlLbTWzS2xtbKzOVREGTyFDm71uzJoL9x5A==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:57 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:43 GMT
+ETag: W/"10-Ljf5Q1jway7NjcTGQAHWCRaU+dI"
+Set-Cookie: _yasc=zB1fM3wJF0Bs21Le0uymbZtuMUrhIR+KBy9xWa00xd0s3w==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:43 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570597730163-11759321311059541233
+X-Request-Id: 1665571363008724-11213468544396145528
 
 {
-    "track": 363409
+    "track": 447703
 }
 Request method:	PUT
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/orders/cancel
@@ -347,17 +347,17 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "track": 363409
+    "track": 447703
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 82
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:58 GMT
+Date: Wed, 12 Oct 2022 10:42:43 GMT
 ETag: W/"52-NEb1sihdUImnV9vUyVCvOlniC48"
-Set-Cookie: _yasc=llep3Lr29sTBdk2QDrb5Vcb6qREGmvQhV3nyYtPTMNAX6A==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:58 GMT; secure
+Set-Cookie: _yasc=pbaG6PgFWAS3pK8+9im/lS244+4k5FaEh11ZXU8qzHOjSA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:43 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570598046084-3970618584241578120
+X-Request-Id: 1665571363380420-14387250121679579084
 
 {
     "code": 400,

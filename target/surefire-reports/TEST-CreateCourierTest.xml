@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateCourierTest" time="17.681" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CreateCourierTest" time="13.472" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288\surefirebooter7584350787311306870.jar C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288 2022-10-12T13-29-28_564-jvmRun1 surefire17884066979388325251tmp surefire_015034869654641865434tmp"/>
+    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247 2022-10-12T13-42-20_583-jvmRun1 surefire6610403051653746939tmp surefire_010846972224807782843tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire4002718492927469288\surefirebooter7584350787311306870.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+9-LTS"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="createIdenticalCouriersTest" classname="CreateCourierTest" time="14.82">
+  <testcase name="createIdenticalCouriersTest" classname="CreateCourierTest" time="11.447">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -76,9 +76,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "TyFWDSl",
-    "password": "9803332",
-    "firstName": "UeuBywS"
+    "login": "K2uzbcw",
+    "password": "9840963",
+    "firstName": "jkccqGa"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
@@ -93,19 +93,19 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "TyFWDSl",
-    "password": "9803332",
-    "firstName": "UeuBywS"
+    "login": "K2uzbcw",
+    "password": "9840963",
+    "firstName": "jkccqGa"
 }
 HTTP/1.1 409 Conflict
 Access-Control-Allow-Origin: *
 Content-Length: 112
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:47 GMT
+Date: Wed, 12 Oct 2022 10:42:35 GMT
 ETag: W/"70-sLG1ZktNk+Ab3iaKUMwxkdL4FJo"
-Set-Cookie: _yasc=32ZApjTxFzbxfRjlZXARKjgsGiPwfJdg4Z27R2Y/6KyjNg==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:47 GMT; secure
+Set-Cookie: _yasc=6QaaS1lwJJFqa2djfqEUd7AWk1mAsfIvLpHfJUEnvZRJtA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:35 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570587389347-4657415259524128807
+X-Request-Id: 1665571355186874-6795798271704443565
 
 {
     "code": 409,
@@ -124,29 +124,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "TyFWDSl",
-    "password": "9803332"
+    "login": "K2uzbcw",
+    "password": "9840963"
 }
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 13
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:50 GMT
-ETag: W/"d-EjK4eyPKC2krgH64X2BSdfL0Y5g"
-Set-Cookie: _yasc=HrIyIZm1BO7OqcUQdWHE1ZG6CSWQF406W9HtRrizzTl7Cw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:50 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:37 GMT
+ETag: W/"d-kGNaW7C+j8nMP/VzsJrEtQ91cM4"
+Set-Cookie: _yasc=KfSoCj28g6YTEcJPpIBHa9ArOBVGULd4viaktZp+AgKT7w==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:37 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570590872749-4801488712896434724
+X-Request-Id: 1665571357647110-12298910072423526682
 
 {
-    "id": 112934
+    "id": 112943
 }
 Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112934
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112943
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112934
+Path params:	courierId=112943
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -156,11 +156,11 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:51 GMT
+Date: Wed, 12 Oct 2022 10:42:38 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=pybF0nEceJd3p6O+Kn1Y9UZEBV1up7ZAMETEpMYB3+pS0A==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:51 GMT; secure
+Set-Cookie: _yasc=zvkyNLsEZOeAOM5hJCTXgjjASTg/Bq8gf45erp6WALxLKg==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:38 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570591386253-15881997370412683559
+X-Request-Id: 1665571358150456-8885255665225516504
 
 {
     "ok": true
@@ -171,7 +171,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="createWithEmptyLoginTest" classname="CreateCourierTest" time="0.351">
+  <testcase name="createWithEmptyLoginTest" classname="CreateCourierTest" time="0.311">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -186,18 +186,18 @@ Multiparts:		<none>
 Body:
 {
     "login": "",
-    "password": "rzPMr1n",
-    "firstName": "hnfBuzw"
+    "password": "UNbVo1y",
+    "firstName": "LKHTJaY"
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 114
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:52 GMT
+Date: Wed, 12 Oct 2022 10:42:38 GMT
 ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
-Set-Cookie: _yasc=JledhpaJ7guQYmurRLF8u7x0zksdPbcwVEkN8O8yiujbEA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:52 GMT; secure
+Set-Cookie: _yasc=C/QGVj1BzgPYQATSlUSKxx4/TFNdniO2qbJGTYb/rC/SKA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:38 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570592410409-18123250330195823651
+X-Request-Id: 1665571358777569-12580800439952679588
 
 {
     "code": 400,
@@ -205,7 +205,7 @@ X-Request-Id: 1665570592410409-18123250330195823651
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createWithEmptyPasswordTest" classname="CreateCourierTest" time="0.414">
+  <testcase name="createWithEmptyPasswordTest" classname="CreateCourierTest" time="0.4">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -219,19 +219,19 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "gIonBCn",
+    "login": "wLeZNDu",
     "password": "",
-    "firstName": "aAPluca"
+    "firstName": "vYwyhZs"
 }
 HTTP/1.1 400 Bad Request
 Access-Control-Allow-Origin: *
 Content-Length: 114
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:52 GMT
+Date: Wed, 12 Oct 2022 10:42:39 GMT
 ETag: W/"72-AUDx41VLe1HSztSRMybiiyHwcKY"
-Set-Cookie: _yasc=Tg6au6/mauQrD+Moy8q8Z+eIwamLITijzFZEtziKCOhEWw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:52 GMT; secure
+Set-Cookie: _yasc=ZzJ+zOCT5xpks6mzQG/fF4cxt0kXmF9RLVz4/1oNe1NQsA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:39 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570592822024-10057504511427799300
+X-Request-Id: 1665571359083210-5863264637429857509
 
 {
     "code": 400,
@@ -239,7 +239,7 @@ X-Request-Id: 1665570592822024-10057504511427799300
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createCourierTest" classname="CreateCourierTest" time="1.123">
+  <testcase name="createCourierTest" classname="CreateCourierTest" time="0.995">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -253,19 +253,19 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "rjEJGrk",
-    "password": "1207811",
-    "firstName": "syLowGz"
+    "login": "lKcGJzB",
+    "password": "5597952",
+    "firstName": "XkhuaHX"
 }
 HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:53 GMT
+Date: Wed, 12 Oct 2022 10:42:39 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=Zg17jLVA6w4J/7qo3R4DnPMNP5sQY4kHoCUmUefzMYjpmA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:53 GMT; secure
+Set-Cookie: _yasc=t0c0RTURHJC6oiQYkY08RLwmzWm/Q0v23wifkSLM8RnS+Q==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:39 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570593258399-10587153643590170568
+X-Request-Id: 1665571359485825-7266912141916932174
 
 {
     "ok": true
@@ -283,29 +283,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "rjEJGrk",
-    "password": "1207811"
+    "login": "lKcGJzB",
+    "password": "5597952"
 }
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 13
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:53 GMT
-ETag: W/"d-wGQx+0Yp1oBxDfCu6cFR+0GQ0lo"
-Set-Cookie: _yasc=UhY71PsCnFJ84DorUGR2yGnK0odG/tSSrXBM3dA5R6yOtw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:53 GMT; secure
+Date: Wed, 12 Oct 2022 10:42:39 GMT
+ETag: W/"d-KJ/F0f7dffjHiCPHkHsU7lj15Rw"
+Set-Cookie: _yasc=RRmy4XwK+PMXC2wSEMtzJh6CKzFlVlY9drDAGXszJ+bzow==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:39 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570593495142-905024544603645227
+X-Request-Id: 1665571359789344-1550926792721490642
 
 {
-    "id": 112935
+    "id": 112944
 }
 Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112935
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112944
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112935
+Path params:	courierId=112944
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -315,11 +315,11 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:29:54 GMT
+Date: Wed, 12 Oct 2022 10:42:40 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=DedcKqvfcoteINF70FwW61TkcL1YeNv7KiPULblTeLntgQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:29:53 GMT; secure
+Set-Cookie: _yasc=uukRBXJwQyPgLH3fc/Dl/y5k9Q5eri2nVYdtyyEmBCjy5Q==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:40 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665570593931449-2905652986452003835
+X-Request-Id: 1665571360092337-7588446600385901328
 
 {
     "ok": true

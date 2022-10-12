@@ -1,32 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: CreateOrderTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.921 s <<< FAILURE! - in CreateOrderTest
-CreateOrderTest.OrderParametersTest[0]  Time elapsed: 1.877 s  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.07 s <<< FAILURE! - in CreateOrderTest
+CreateOrderTest.OrderParametersTest[0]  Time elapsed: 0.775 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 
-CreateOrderTest.OrderParametersTest[1]  Time elapsed: 0.702 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[1]  Time elapsed: 0.79 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 
-CreateOrderTest.OrderParametersTest[2]  Time elapsed: 0.712 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[2]  Time elapsed: 0.644 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 
-CreateOrderTest.OrderParametersTest[3]  Time elapsed: 0.62 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[3]  Time elapsed: 0.85 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:37)
+	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
 
