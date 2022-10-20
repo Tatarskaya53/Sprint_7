@@ -1,32 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: CreateOrderTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.07 s <<< FAILURE! - in CreateOrderTest
-CreateOrderTest.OrderParametersTest[0]  Time elapsed: 0.775 s  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.925 s <<< FAILURE! - in CreateOrderTest
+CreateOrderTest.OrderParametersTest[Тестовые данные: Naruto, Uchiha, Konoha, 142 apt., 4, +7 800 355 35 35, 5, 2020-06-06, Saske, come back to Konoha, null]  Time elapsed: 0.489 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
+	at CreateOrderTest.teardown(CreateOrderTest.java:47)
 
-CreateOrderTest.OrderParametersTest[1]  Time elapsed: 0.79 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[Тестовые данные: Naruto, Uchiha, Konoha, 142 apt., 4, +7 800 355 35 35, 5, 2020-06-06, Saske, come back to Konoha, [BLACK]]  Time elapsed: 0.455 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
+	at CreateOrderTest.teardown(CreateOrderTest.java:47)
 
-CreateOrderTest.OrderParametersTest[2]  Time elapsed: 0.644 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[Тестовые данные: Naruto, Uchiha, Konoha, 142 apt., 4, +7 800 355 35 35, 5, 2020-06-06, Saske, come back to Konoha, [GREY]]  Time elapsed: 0.432 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
+	at CreateOrderTest.teardown(CreateOrderTest.java:47)
 
-CreateOrderTest.OrderParametersTest[3]  Time elapsed: 0.85 s  <<< FAILURE!
+CreateOrderTest.OrderParametersTest[Тестовые данные: Naruto, Uchiha, Konoha, 142 apt., 4, +7 800 355 35 35, 5, 2020-06-06, Saske, come back to Konoha, [BLACK, GREY]]  Time elapsed: 0.531 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
-	at CreateOrderTest.OrderParametersTest(CreateOrderTest.java:36)
+	at CreateOrderTest.teardown(CreateOrderTest.java:47)
 

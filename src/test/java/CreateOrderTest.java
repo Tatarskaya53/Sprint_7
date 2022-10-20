@@ -1,21 +1,25 @@
+import io.qameta.allure.Step;
 import order.OrderClient;
 import order.Order;
 import order.OrderTrack;
+import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 import java.util.List;
 import io.qameta.allure.junit4.DisplayName;
 import io.qameta.allure.Issue;
+
+import static org.apache.http.HttpStatus.*;
 
 @RunWith(Parameterized.class)
 public class CreateOrderTest {
     Order order;
     OrderClient orderClient = new OrderClient();
+    private int track;
 
-    @Parameters
-    public static Object[][] OrderParameters() {
+   @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}")
+    public static Object[][] OrderParameters1() {
         return new Object[][]{
                 {"Naruto", "Uchiha", "Konoha, 142 apt.", "4", "+7 800 355 35 35", 5, "2020-06-06", "Saske, come back to Konoha", null},
                 {"Naruto", "Uchiha", "Konoha, 142 apt.", "4", "+7 800 355 35 35", 5, "2020-06-06", "Saske, come back to Konoha", List.of("BLACK")},
@@ -23,18 +27,24 @@ public class CreateOrderTest {
                 {"Naruto", "Uchiha", "Konoha, 142 apt.", "4", "+7 800 355 35 35", 5, "2020-06-06", "Saske, come back to Konoha", List.of("BLACK", "GREY")},
         };
     }
-
     @Test
     @DisplayName("Creating an order")
     @Issue("BUG")
+    @Step("Create order")
     public void OrderParametersTest() {
         order = Order.createOrder(firstName, lastName, address, metroStation, phone, rentTime, deliveryDate, comment, color);
-        int track = orderClient.createOrder(order)
+        track = orderClient.createOrder(order)
+                .then()
+                .statusCode(SC_CREATED)
                 .extract()
                 .path("track");
-
-        orderClient.cancelOrder(new OrderTrack(track));
-
+    }
+    @After
+    @Step("Cancel order")
+    public void teardown() {
+        orderClient.cancelOrder(new OrderTrack(track))
+                .then()
+                .statusCode(SC_OK);
     }
 
     private final String firstName;

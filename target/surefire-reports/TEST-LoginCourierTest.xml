@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LoginCourierTest" time="5.557" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LoginCourierTest" time="3.911" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-simple\2.0.3\slf4j-simple-2.0.3.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
-    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247 2022-10-12T13-42-20_583-jvmRun1 surefire6610403051653746939tmp surefire_010846972224807782843tmp"/>
+    <property name="sun.java.command" value="C:\Users\mts49\AppData\Local\Temp\surefire15706121857932091286\surefirebooter12127379707313540003.jar C:\Users\mts49\AppData\Local\Temp\surefire15706121857932091286 2022-10-21T00-08-23_650-jvmRun1 surefire2179358017455285181tmp surefire_01524913251374370691tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\mts49\Sprint_7\target\test-classes;C:\Users\mts49\Sprint_7\target\classes;C:\Users\mts49\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mts49\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mts49\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mts49\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mts49\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\mts49\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\mts49\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\mts49\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\mts49\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\mts49\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-junit4\2.19.0\allure-junit4-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-rest-assured\2.19.0\allure-rest-assured-2.19.0.jar;C:\Users\mts49\.m2\repository\io\qameta\allure\allure-attachments\2.19.0\allure-attachments-2.19.0.jar;C:\Users\mts49\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\mts49\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-simple\2.0.3\slf4j-simple-2.0.3.jar;C:\Users\mts49\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="C:\Users\mts49\Sprint_7\target/allure-results"/>
     <property name="user.home" value="C:\Users\mts49"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire10981458668744891247\surefirebooter8049462473532965195.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mts49\AppData\Local\Temp\surefire15706121857932091286\surefirebooter12127379707313540003.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+9-LTS"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="loginWithWrongPasswordTest" classname="LoginCourierTest" time="0.914">
+  <testcase name="loginWithWrongPasswordTest" classname="LoginCourierTest" time="0.467">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -76,22 +76,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "VHgOHpQ",
-    "password": "6584177",
-    "firstName": "tmPRzCH"
-}
-HTTP/1.1 201 Created
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:47 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=QF73QxqfX6JzUkkYMxqKnXunfUICLedpRchjPjTE8x7K2Q==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:47 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571367487249-9640292013530477184
-
-{
-    "ok": true
+    "login": "Dcj5B8g",
+    "password": "2492763",
+    "firstName": "nhBBZop"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -106,59 +93,32 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "VHgOHpQ",
-    "password": "6584177"
-}
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Content-Length: 13
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:47 GMT
-ETag: W/"d-RTgeIcEnhCKTXcOQ+L13TmgXwBQ"
-Set-Cookie: _yasc=f69X7SHQ9Vnjf/LousVhPqQwc41l+dqNqnBZgz4gnnGFBg==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:47 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571367786613-12641618376722634473
-
-{
-    "id": 112946
-}
-Request method:	POST
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "VHgOHpQ",
+    "login": "Dcj5B8g",
     "password": "-"
 }
-HTTP/1.1 404 Not Found
-Access-Control-Allow-Origin: *
-Content-Length: 72
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:48 GMT
-ETag: W/"48-SNOWaDub1LGYtleYI6ITphu8xIQ"
-Set-Cookie: _yasc=yuZhOZHbfAtk+4S8KaVebqN8fl0zhs6rGablz5Ptgd1lKw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:48 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571368126939-13213535987061023507
-
-{
-    "code": 404,
-    "message": "Учетная запись не найдена"
-}
-Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112946
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112946
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Dcj5B8g",
+    "password": "2492763"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/116127
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	courierId=116127
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -168,18 +128,18 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:48 GMT
+Date: Thu, 20 Oct 2022 21:08:50 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=eM/3LttJnor87QH6VvL8XMP1laygaoNrfY0DKUnYIyDcQA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:48 GMT; secure
+Set-Cookie: _yasc=j6/y/1BVo1K3C4VuMQwTdZKyd4iWdR1Fsr4CkzgA/x56/cyD9JPUu02RlyUt; domain=.praktikum-services.ru; path=/; expires=Sun, 17-Oct-2032 21:08:49 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665571368493418-10541114445193145360
+X-Request-Id: 1666300129955713-2724603424831163508
 
 {
     "ok": true
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginWithWrongLoginTest" classname="LoginCourierTest" time="1.288">
+  <testcase name="loginWithWrongLoginTest" classname="LoginCourierTest" time="0.83">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -193,51 +153,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Kms1y2x",
-    "password": "4146910",
-    "firstName": "ppsngie"
-}
-HTTP/1.1 201 Created
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:49 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=86kZAVIkS01RiQyk+ctar2hmXjZZO+kNlc0401pt3/wAQw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:48 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571368927649-15228871758784023607
-
-{
-    "ok": true
-}
-Request method:	POST
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "Kms1y2x",
-    "password": "4146910"
-}
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Content-Length: 13
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:49 GMT
-ETag: W/"d-lS7unPVod//z05CP2wozWlrtg+Q"
-Set-Cookie: _yasc=uvKoRMEfIJoLnxNtDjMzq7rVU3/eUXSLD0UR9WL8gGL1tQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:49 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571369325203-15141088901670383870
-
-{
-    "id": 112947
+    "login": "PmEnU60",
+    "password": "4906564",
+    "firstName": "jYAYSYY"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -253,29 +171,31 @@ Multiparts:		<none>
 Body:
 {
     "login": "-",
-    "password": "4146910"
+    "password": "4906564"
 }
-HTTP/1.1 404 Not Found
-Access-Control-Allow-Origin: *
-Content-Length: 72
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:49 GMT
-ETag: W/"48-SNOWaDub1LGYtleYI6ITphu8xIQ"
-Set-Cookie: _yasc=Z0t6NYATklAODjI9OzFcPVDxdstO9AECdkxTrkiQCCW41g==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:49 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571369621624-17969344992209194571
-
-{
-    "code": 404,
-    "message": "Учетная запись не найдена"
-}
-Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112947
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112947
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "PmEnU60",
+    "password": "4906564"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/116128
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	courierId=116128
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -285,18 +205,18 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:49 GMT
+Date: Thu, 20 Oct 2022 21:08:50 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=rMIPaBZnO7cgB4TylWTgC+twgBHAlVxr3kscrrVzy04EzQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:49 GMT; secure
+Set-Cookie: _yasc=cka5ijHaKYIWRDL9l0ohJ6d0HYEnPPqo+Ig+dB5fJMvrkeGeH5m5tNUdGyQ=; domain=.praktikum-services.ru; path=/; expires=Sun, 17-Oct-2032 21:08:50 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665571369914470-14967188981588064041
+X-Request-Id: 1666300130805018-1690471520977907554
 
 {
     "ok": true
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginWithEmptyPasswordTest" classname="LoginCourierTest" time="1.089">
+  <testcase name="loginWithEmptyPasswordTest" classname="LoginCourierTest" time="0.889">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -310,22 +230,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "1hHxQ56",
-    "password": "1274060",
-    "firstName": "cxYISNa"
-}
-HTTP/1.1 201 Created
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:50 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=A4nGzVzRW53B/0b7s55kUfXojNJ/XKbLVpsEk339EPYYYg==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:50 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571370095187-12838706148771025081
-
-{
-    "ok": true
+    "login": "OkeSkeb",
+    "password": "8224687",
+    "firstName": "sNzxHwV"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -340,59 +247,32 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "1hHxQ56",
-    "password": "1274060"
-}
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Content-Length: 13
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:50 GMT
-ETag: W/"d-i89m4GjSJB9aTOeBruAzzUe9Sig"
-Set-Cookie: _yasc=HCxNHLkOx/ihrtIh+gk5e0kI9Hvvw+1REi0fhJ0J/5F54Q==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:50 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571370318414-10160001129714531489
-
-{
-    "id": 112948
-}
-Request method:	POST
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "1hHxQ56",
+    "login": "OkeSkeb",
     "password": ""
 }
-HTTP/1.1 400 Bad Request
-Access-Control-Allow-Origin: *
-Content-Length: 80
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:50 GMT
-ETag: W/"50-LwGSJxcCDIE8JNxAo8HI82cPc8A"
-Set-Cookie: _yasc=cNPJQ9jI8e/FNNtehYcmABW8Rd42Ipj5MjdLgcKKd46geA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:50 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571370641345-3127175037987201718
-
-{
-    "code": 400,
-    "message": "Недостаточно данных для входа"
-}
-Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112948
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112948
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "OkeSkeb",
+    "password": "8224687"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/116129
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	courierId=116129
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -402,18 +282,18 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:50 GMT
+Date: Thu, 20 Oct 2022 21:08:51 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=YAX//McxGXyKZFEAdrIksh6en45jdlNHapWTjO30hNzYYA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:50 GMT; secure
+Set-Cookie: _yasc=kCmf4HN5aJBZRyftIAIKqQ+OREAAJ1xmvrwE8O/PSHBmHfza96PuBgpm465G; domain=.praktikum-services.ru; path=/; expires=Sun, 17-Oct-2032 21:08:51 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665571370916251-3411773856663336263
+X-Request-Id: 1666300131672903-15109418378138573195
 
 {
     "ok": true
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginCourierTest" classname="LoginCourierTest" time="0.929">
+  <testcase name="loginCourierTest" classname="LoginCourierTest" time="0.875">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -427,22 +307,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Kpv2Gzu",
-    "password": "7451152",
-    "firstName": "eTSkNDV"
-}
-HTTP/1.1 201 Created
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:51 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=+PgNd7IRP0qtrUi3drJNZWDhs9J6CQm48FiyY/Jr29caFw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:51 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571371181501-8066332046428595801
-
-{
-    "ok": true
+    "login": "QJo9b4O",
+    "password": "8673946",
+    "firstName": "pshwBHU"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -457,79 +324,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Kpv2Gzu",
-    "password": "7451152"
-}
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Content-Length: 13
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:51 GMT
-ETag: W/"d-BlKPS+JoDRvpAkpGnWgmb6V0qIk"
-Set-Cookie: _yasc=LfSjS+zrjGvLcIX4S6woaacR13XN0ls3xVhTpe4CKQczpQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:51 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571371411733-3325399367151273389
-
-{
-    "id": 112949
-}
-Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112949
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	courierId=112949
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:51 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=KQEKByPmoxIqk0jMFpicrNJNZKfSuFFWBshx1T3JHTQhpw==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:51 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571371768310-9588436163621944090
-
-{
-    "ok": true
-}
-]]></system-out>
-  </testcase>
-  <testcase name="loginWithEmptyLoginTest" classname="LoginCourierTest" time="1.336">
-    <system-out><![CDATA[Request method:	POST
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "IJSAr1R",
-    "password": "8348843",
-    "firstName": "fjOwXnq"
-}
-HTTP/1.1 201 Created
-Access-Control-Allow-Origin: *
-Content-Length: 11
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:52 GMT
-ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=GP5FWaytKoZ08IEqlBjx4yzzMJFzPSrK5oF1I6A11mi3oQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:52 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571372191927-16888895433864206738
-
-{
-    "ok": true
+    "login": "QJo9b4O",
+    "password": "8673946"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -544,21 +340,53 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "IJSAr1R",
-    "password": "8348843"
+    "login": "QJo9b4O",
+    "password": "8673946"
 }
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/116130
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	courierId=116130
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
-Content-Length: 13
+Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:52 GMT
-ETag: W/"d-goKNvSAX0kvoSOFgKA0VP+Bl0tA"
-Set-Cookie: _yasc=9AYpYYIjRLbarXeG09PAu6MWPFF4OLw2aC6y+VAe747EsA==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:52 GMT; secure
+Date: Thu, 20 Oct 2022 21:08:52 GMT
+ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
+Set-Cookie: _yasc=iI87XCqQd+s7aYVtNshAQ/JX7VRoGCJI3a80KH0Frtwj6BrXjg2e4JmFtIdQ; domain=.praktikum-services.ru; path=/; expires=Sun, 17-Oct-2032 21:08:52 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665571372501533-5795134782007920603
+X-Request-Id: 1666300132524953-14025365009212303679
 
 {
-    "id": 112950
+    "ok": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithEmptyLoginTest" classname="LoginCourierTest" time="0.849">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "vXczcZj",
+    "password": "6702995",
+    "firstName": "NqRmVXa"
 }
 Request method:	POST
 Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -574,29 +402,31 @@ Multiparts:		<none>
 Body:
 {
     "login": "",
-    "password": "8348843"
+    "password": "6702995"
 }
-HTTP/1.1 400 Bad Request
-Access-Control-Allow-Origin: *
-Content-Length: 80
-Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:52 GMT
-ETag: W/"50-LwGSJxcCDIE8JNxAo8HI82cPc8A"
-Set-Cookie: _yasc=IlW0a+OFAhsLMQa4mAl99+xM9AeOgmHIV2t6l5HNxayfYQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:52 GMT; secure
-X-Powered-By: Express
-X-Request-Id: 1665571372925577-9404909481434838166
-
-{
-    "code": 400,
-    "message": "Недостаточно данных для входа"
-}
-Request method:	DELETE
-Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/112950
+Request method:	POST
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	courierId=112950
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "vXczcZj",
+    "password": "6702995"
+}
+Request method:	DELETE
+Request URI:	http://qa-scooter.praktikum-services.ru/api/v1/courier/116131
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	courierId=116131
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -606,11 +436,11 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Length: 11
 Content-Type: application/json; charset=utf-8
-Date: Wed, 12 Oct 2022 10:42:53 GMT
+Date: Thu, 20 Oct 2022 21:08:53 GMT
 ETag: W/"b-Ai2R8hgEarLmHKwesT1qcY913ys"
-Set-Cookie: _yasc=XIWHHIbUJyVZnhXJyoqY2Uo/QDIt1ARknIyo7bRhyqgkJQ==; domain=.praktikum-services.ru; path=/; expires=Fri, 11-Nov-2022 10:42:53 GMT; secure
+Set-Cookie: _yasc=93aj9Y5i3HbF0Ia4ZVOq+foJT3VQuKn+lAlYOD1HgZmm+80QHG9uQ3G/wOQ=; domain=.praktikum-services.ru; path=/; expires=Sun, 17-Oct-2032 21:08:53 GMT; secure
 X-Powered-By: Express
-X-Request-Id: 1665571373201916-14037823781286938444
+X-Request-Id: 1666300133428624-1829596756798065596
 
 {
     "ok": true
