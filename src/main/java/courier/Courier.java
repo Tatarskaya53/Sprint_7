@@ -22,21 +22,4 @@ public class Courier {
                 RandomStringUtils.randomAlphabetic(7)
         );
     }
-
-    public static Courier createCourierWithoutLogin() {
-        return new Courier(
-                "",
-                RandomStringUtils.randomAlphanumeric(7),
-                RandomStringUtils.randomAlphabetic(7)
-        );
-    }
-
-    public static Courier createCourierWithoutPassword() {
-        return new Courier(
-                RandomStringUtils.randomAlphabetic(7),
-                "",
-                RandomStringUtils.randomAlphabetic(7)
-        );
-    }
 }
-

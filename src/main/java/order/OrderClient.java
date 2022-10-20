@@ -1,6 +1,7 @@
 package order;
 
 import config.BaseClient;
+import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 public class OrderClient extends BaseClient {
 
@@ -9,31 +10,21 @@ public class OrderClient extends BaseClient {
 
 
 
-    public ValidatableResponse createOrder(Order order) {
+    public Response createOrder(Order order) {
         return getSpec()
                 .body(order)
                 .when()
-                .post(ORDER)
-                .then().log().all()
-                .statusCode(201);
+                .post(ORDER);
     }
 
-    public ValidatableResponse cancelOrder(OrderTrack orderTrack) {
+    public Response cancelOrder(OrderTrack orderTrack) {
         return getSpec()
                 .body(orderTrack)
                 .when()
-                .put(ORDER_CANCEL)
-                .then().log().all()
-                .statusCode(200);
+                .put(ORDER_CANCEL);
     }
-
-
-    public ValidatableResponse getOrders() {
+    public Response getOrders() {
         return getSpec()
-                .get(ORDER)
-                .then().log().all()
-                .statusCode(200);
+                .get(ORDER);
     }
-
 }
-
